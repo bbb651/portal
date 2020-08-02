@@ -1,3 +1,4 @@
 {
-  "item.portal.portal_gun": "Portal Gun"
+  "item.portal.portal_gun": "Portal Gun",
+  "entity.portal.portal": "Portal"
 }

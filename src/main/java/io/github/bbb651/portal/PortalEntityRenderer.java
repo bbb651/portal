@@ -1,10 +1,13 @@
 package io.github.bbb651.portal;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.minecraft.client.render.entity.EntityRenderDispatcher;
 import net.minecraft.client.render.entity.EntityRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.Identifier;
 
+@Environment(EnvType.CLIENT)
 public class PortalEntityRenderer extends EntityRenderer<PortalEntity> {
 
 

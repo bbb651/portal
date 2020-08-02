@@ -13,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class PortalEntity extends AbstractDecorationEntity {
 
-    protected PortalEntity(EntityType<? extends AbstractDecorationEntity> entityType, World world) {
+    protected PortalEntity(EntityType<PortalEntity> entityType, World world) {
         super(entityType, world);
     }
 

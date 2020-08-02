@@ -19,7 +19,9 @@
     "main": [
       "io.github.bbb651.portal.Portal"
     ],
-    "client": [],
+    "client": [
+      "io.github.bbb651.portal.PortalClient"
+    ],
     "server": []
   },
   "mixins": [
