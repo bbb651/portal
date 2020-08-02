@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "portal",
+  "version": "${version}",
+  "name": "Portal",
+  "description": "Hello there test subject. Here is your portal making device",
+  "authors": [
+    "bbb651"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://bbb651.github.io",
+    "sources": "https://github.com/bbb651/portal"
+  },
+  "license": "MIT",
+  "icon": "assets/portal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.bbb651.portal.Portal"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "portal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
